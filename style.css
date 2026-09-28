@@ -24,12 +24,21 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 24px;
     font-weight: 700;
     color: #fff;
+    text-decoration: none;
 }
 
-.logo span {
+.logo img {
+    height: 44px;
+    width: auto;
+}
+
+.logo-text span {
     color: #f0b90b;
 }
 
